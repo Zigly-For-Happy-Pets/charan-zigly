@@ -4,59 +4,481 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="footer.css"/>
+    <title>Zigly petcare</title>
+    <link rel="stylesheet" href="footer.css" />
     <script src="https://kit.fontawesome.com/9db0ef318f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <section class="cat">
-        <div class="img"><img src="https://www.zigly.com/media/catalog/category/Cat_Essential_banner-1-_1920x400_.jpg" width="100%"/></div>
+    <!-- part-1 -->
+
+    <!-- top bar -->
+    <div class="promo-banner">
+        <div>
+            <marquee scrollamount="3">
+                <p class="support">Flat 20% Off on Pet Treats. Click Here!</p>
+            </marquee>
+        </div>
+        <p class="support">Customer Support: 080696 01281 | Time: 9:30AM to 7:00 PM</p>
+    </div>
+
+    <!-- part-2 -->
+
+    <!-- top2 bar -->
+    <header class="zigly-header">
+        <div class="logo">
+            <a href="#">
+                <img src="https://www.zigly.com/media/logo/stores/1/Tail-Animation_2.gif" alt="Zigly Logo">
+            </a>
+        </div>
+
+        <div class="search-box" style="color:  #8da2b5; font-weight: bold;">
+            <input type="text" placeholder="Search.." style="color:  #8193a6; font-weight: bold;">
+            <button style="color:  #8da2b5;">
+                <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png" alt="Search">
+            </button>
+        </div>
+
+        <div class="icon-links">
+            <div class="icon-item">
+                <a href="#">
+                    <img src="https://www.zigly.com/static/version1731405273/frontend/Amasty/JetTheme_child/en_US/images/header/trackorder.png"
+                        alt="Track">
+                    <span>Track</span>
+                </a>
+            </div>
+            <div class="icon-item">
+                <a href="#">
+                    <img src="https://www.zigly.com/static/version1731405273/frontend/Amasty/JetTheme_child/en_US/images/header/location.png"
+                        alt="Location">
+                    <span>Location</span>
+                </a>
+            </div>
+            <div class="icon-item">
+                <a href="#">
+                    <img src="https://www.zigly.com/static/version1731405273/frontend/Amasty/JetTheme_child/en_US/images/header/cart.png"
+                        alt="Cart">
+                    <span>Cart</span>
+                </a>
+            </div>
+            <div class="icon-item">
+                <a href="#">
+                    <img src="https://www.zigly.com/static/version1731405273/frontend/Amasty/JetTheme_child/en_US/images/icons-user.png"
+                        alt="Profile">
+                    <span style="font-weight: bold;">Profile</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- part-3 -->
+
+    <section class="nav_1 d-flex justify-content-center align-items-center">
+        <div class="dropdown mx-2">
+            <button class="nav-btn dropdown-toggle" data-bs-toggle="dropdown">Dogs</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Dog Food</a></li>
+                <li><a class="dropdown-item" href="#">Toys</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mx-2">
+            <button class="nav-btn dropdown-toggle" data-bs-toggle="dropdown">Cats</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Cat Food</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mx-2">
+            <button class="nav-btn dropdown-toggle" data-bs-toggle="dropdown">Small Pets</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Hamster</a></li>
+                <li><a class="dropdown-item" href="#">Guinea Pig</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mx-2">
+            <button class="nav-btn dropdown-toggle" data-bs-toggle="dropdown">Bird</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bird Food</a></li>
+                <li><a class="dropdown-item" href="#">Cages</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mx-2">
+            <button class="nav-btn dropdown-toggle" data-bs-toggle="dropdown">Brand</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Brand A</a></li>
+                <li><a class="dropdown-item" href="#">Brand B</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mx-2">
+            <button class="nav-btn dropdown-toggle" data-bs-toggle="dropdown">Vet Care</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Consult</a></li>
+                <li><a class="dropdown-item" href="#">Vaccination</a></li>
+            </ul>
+        </div>
+
+
+        <span class="ourstore">Our Stores</span>
+        <span class="ourstore">Blog</span>
+        <span class="ourstore">Contact Us</span>
     </section>
-    <h1 class="hi"><center>Explore Our Communities</center></h1>
+
+
+
+    <!-- part-4 -->
+
+    <section>
+        <div class="first_card">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.zigly.com/media/mageplaza/bannerslider/banner/image/1/4/1400x450_1.png"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.zigly.com/media/mageplaza/bannerslider/banner/image/z/i/zigly_1400x450_2.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.zigly.com/media/mageplaza/bannerslider/banner/image/z/i/zigly_1400x450_3.jpg"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.zigly.com/media/mageplaza/bannerslider/banner/image/b/a/banner_1400x450_zigly.jpg"
+                            alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+          
+    </section>
+    <!-- pets glocery -->
+    <section class="pets glocery">
+        <center>
+            <h1>Shop Our Top-Selling Favorites</h1>
+        </center>
+        <marquee scrollamount="12">
+            <div class="card-group">
+                <div class="card">
+                    <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/d/o/dogaholic_max_bbq_chicken_bacon_strips_dog_meaty_treat_-_130_gm-1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body"><center>
+                        <h5 class="card-title" style="color: purple;">Dogaholic</h5>
+                       
+                        <p class="card-text"><small class="text-muted"><del>₹399.00</del>  ₹359.00</small></p>
+                        <button style="background-color: red;">Add Cart</button></center>
+                    </div>
+                </div><br/><br/>
+                <div class="card">
+                    <img src="https://www.zigly.com/media/catalog/product/cache/743ca7d646b949dcc48b9fdeed3857e9/c/h/chip_chops_chicken_calcium_bone_dog_meaty_treat_-_70_gm-1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body"><center>
+                        <h5 class="card-title" style="color: rgb(185, 37, 199);">Chips Chops</h5>
+                        <p class="card-text"><small class="text-muted"><del>₹215.00</del>  ₹194.00</small></p>
+                        <button style="background-color: red;">Add Cart</button></center>
+                    </div>
+                </div><br/><br/>
+                <div class="card">
+                    <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/j/e/jerhigh_cookie_dog_meaty_treat_-_70_gm-1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body"><center>
+                        <h5 class="card-title" style="color: rgb(185, 37, 199);">JerHigh</h5>
+                        <p class="card-text"><small class="text-muted">₹210.00</small></p>
+                        <button style="background-color: red;">Add Cart</button></center>
+                    </div>
+                </div><br/><br/>
+                <div class="card">
+                    <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/c/h/chip_chops_chicken_pasta_dog_meaty_treat_-_70_gm-1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body"><center>
+                        <h5 class="card-title" style="color: rgb(185, 37, 199);">Chips Meat</h5>
+                        <p class="card-text"><small class="text-muted"><del>₹210.00</del>  ₹189.00</small></p>
+                        <button style="background-color: red;">Add Cart</button></center>
+                    </div><br/><br/>
+                </div><br/>
+                <div class="card">
+                    <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/Zig0A1761.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body"><center>
+                        <h5 class="card-title" style="color: rgb(185, 37, 199);">Calcium Milk Bone</h5>
+                        <p class="card-text"><small class="text-muted" ><del>₹1,075.00</del>  ₹968.00</small></p>
+                        <button style="background-color: red;">Add Cart</button></center>
+                    </div>
+                </div><br/><br/>
+                <div class="card">
+                    <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/a/p/applod_soft_chicken_liver_chew_sticks_-_70_gm.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body"><center>
+                        <h5 class="card-title" style="color: rgb(185, 37, 199);">Applod</h5>
+                        <p class="card-text"><small class="text-muted">₹220.00</small></p>
+                        <button style="background-color: red;">Add Cart</button></center>
+                    </div>
+                </div><br/><br/>
+                <div class="card">
+                    <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/g/o/goodies_energy_treats_lamb_flavour_dog_dental_treat_-_500_gm-1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body"><center>
+                        <h5 class="card-title" style="color: rgb(185, 37, 199);">Goodies</h5>
+                        <p class="card-text"><small class="text-muted"><del>
+                                    ₹650.00</del>
+                                ₹585.00</small></p>
+                        <button style="background-color: red;">Add Cart</button></center>
+                    </div>
+                </div>
+            </div>
+        </marquee>
+    </section>
+    <!-- box formate -->
+    <section class="boxformate">
+        <div>
+            <center>
+                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                    <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                    <label class="btn " for="btncheck1">Dog</label>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                    <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                    <label class="btn " for="btncheck2">CAT</label>
+                </div>
+            </center>
+            <div class="part-1">
+                <ul class="part-11">
+                    <center>
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/a/p/applod_soft_chicken_liver_chew_sticks_-_70_gm.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Applod</h5>
+                                    <p class="card-text">Applod Soft Chicken...</p>
+                                    <p class="card-text"><small class="text-muted">₹220.00</small></p>
+                                    <button style="background-color: red; width:50% ;">Add Cart</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/5/1/515dmd1opul._sl1280_.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jerhigh</h5>
+                                    <p class="card-text">Jerhigh Meat As Meals Salmon Recipe Soft Dog Food - 500 gm</p>
+                                    <p class="card-text"><small class="text-muted">₹1,099.00</small></p>
+                                    <button style="background-color: red; width:50% ;">Add Cart</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/10106799-1.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">M-Pets</h5>
+                                    <p class="card-text">M-Pets Toothbrush Set For Puppy/Dog</p>
+                                    <p class="card-text"><small class="text-muted"><del>₹250.00</del>
+                                            ₹238.00</small></p>
+                                    <button style="background-color: red; width:50% ;">Add Cart</button>
+                                </div>
+                            </div>
+                    </center>
+                </ul><br /><br /><br />
+            </div>
+        </div>
+
+    </section>
+
+    <!-- introdution video -->
+    <section class="intro ">
+        <div class="block ">
+            <div class="text  col-12 col-sm-12 col-md-12 col-lg-6">
+                <h2><b>Every wag, every purr, every little moment—there’s a world behind it.</b></h2><br />
+                <h5><strong>Zigly</strong> presents the story of a heartfelt quest celebrating the beautiful bond you
+                    share with your pets—and the vibrant ecosystem we’re building to nurture it.</h5><br />
+                <h6>Feel it and tell us what made you choose Zigly for your pet? Share it using
+                    <strong>#MyZiglyMoment</strong></h5><br />
+                    <h5>Thank you for making Zigly a part of your journey. Let’s make this moment memorable—together.
+                    </h5>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 oredr-1">
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/1vIjfkud5MQ?si=cHsQLyJ1Z1NLB881&amp;start=9" title=""
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- dog poster -->
+    <section class="dposter">
+        <div class="poster"><img src="https://www.zigly.com/media/wysiwyg/Playful-temptations-min.png" /></div>
+    </section>
+    <!-- cards -->
+    <section class="cards col-12 col-sm-6 col-md-6 ">
+        <div id="carouselExampleInterval" class="carousel slide  carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="card-warp d-flex center">
+                        <div class="card-group  ">
+                            <div class="card">
+                                <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/o/t/otrnf17318.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Outward Hound</h5>
+                                    <p class="card-text">Outward Hound Invinivles Owl Purple X-Small.</p>
+                                    <p class="card-text"><small class="text-muted">₹595.00</small></p>
+                                    <button class="btn btn-danger">ADD TO CART</button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/7/0/70013_1_1.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Petsport</h5>
+                                    <p class="card-text">Petsport Junour Mint Tuff Balls fetch Dog Toy-5 cm.</p>
+                                    <p class="card-text"><small class="text-muted"></small><del>₹325.00</del>₹293.00</p>
+                                    <button class="btn btn-danger">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/4/1/41euax2adyl._sl1000_.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Trixi</h5>
+                                    <p class="card-text">Trixie Matatabi Feather Game 20cm.</p>
+                                    <p class="card-text"><small class="text-muted"><del>₹275.00</del>₹248.00</small></p>
+                                    <button class="btn btn-danger">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/3/4/3443.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Trixie</h5>
+                                    <p class="card-text">Trixime Neon Balls Foam Rubber Feath Dog Toy-6 cm</p>
+                                    <p class="card-text"><small class="text-muted"><del>₹190.00</del>₹152.00</small></p>
+                                    <button class="btn btn-danger">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/7/1/71oama32r4l._sl1500_.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fofos</h5>
+                                    <p class="card-text">Fofos Garden Butterfly Plush Dog Toy.</p>
+                                    <p class="card-text"><small class="text-muted"><del>₹449.00</del>₹427.00</small></p>
+                                    <button class="btn btn-danger">ADD TO CART</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://www.zigly.com/media/catalog/product/cache/7572f1ba24d65c3ab20963a3bbaa4736/u/n/untitleddesign_95.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Black Decker</h5>
+                                    <p class="card-text">Black Decker -Drill Machine Plush Dog Toy(41*25*6cm)</p>
+                                    <p class="card-text"><small class="text-muted"><del>₹1075.00</del>₹860.00</small>
+                                    </p>
+                                    <button class="btn btn-danger">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </section>
+    <!-- cat poster -->
+    <section class="cat">
+        <div class="img"><img src="https://www.zigly.com/media/catalog/category/Cat_Essential_banner-1-_1920x400_.jpg"
+                width="100%" /></div><br />
+    </section>
+    <h1 class="hi">
+        <center><b style="color: blue;">Explore Our Communities</b></center>
+    </h1>
     <section class="areas">
         <div class="com">
             <ul type="none" class="reciption">
-                <li class="img"><img src="https://www.zigly.com/media/wysiwyg/zigly-front.jpg" width="95%"/></li>
+                <li class="img"><img src="https://www.zigly.com/media/wysiwyg/zigly-front.jpg" width="95%" /></li>
             </ul>
             <ul type="none" class="para">
                 <div class="part1">
-                    <p><img src="https://www.zigly.com/media/wysiwyg/our-communities-001.png" width="20%"/></p>
-                    <p>Building an informative community of pet parents and animal lovers passionate about our pets' joy and well-being.</p>
+                    <p><img src="https://www.zigly.com/media/wysiwyg/our-communities-001.png" width="20%" /></p>
+                    <p>Building an informative community of pet parents and animal lovers passionate about our pets' joy
+                        and well-being.</p>
                     <a href="##" style="color: red;">Read More</a>
                 </div>
                 <div class="part2">
-                     <p><img src="https://www.zigly.com/media/wysiwyg/our-communities-002.png" width="20%"/></p>
-                    <p>Petsfamilia is your safe haven for all pet-related information, discussion and content that would make your journey with your pet.</p>
+                    <p><img src="https://www.zigly.com/media/wysiwyg/our-communities-002.png" width="20%" /></p>
+                    <p>Petsfamilia is your safe haven for all pet-related information, discussion and content that would
+                        make your journey with your pet.</p>
                     <a href="##" style="color: red;">Read More</a>
                 </div>
             </ul>
         </div>
     </section>
     <section class="doctor">
-        <div class="doc1"><a href="https://www.zigly.com/experience-center" target="_blank"><img src="https://www.zigly.com/media/wysiwyg/Vet-Banner-Web-min.png" width="100%"/></a></div>
+        <div class="doc1"><a href="https://www.zigly.com/experience-center" target="_blank"><img
+                    src="https://www.zigly.com/media/wysiwyg/Vet-Banner-Web-min.png" width="100%" /></a></div>
     </section>
     <section class="health">
         <div class="dog">
-            <ul type="none" >
-                <li><a href="https://www.zigly.com/blog/post/understanding-castration-in-pets.html" target="_blank"><img src="https://www.zigly.com/media/mageplaza/blog/post/c/a/castration-bannert.jpg" width="95%" class="d1"/></a></li>
-                <li><p style="color: blue;">Understanding Castration in Pets: A Complete Guide</p></li>
-            </ul>
-            <ul type="none" >
-                <li><a href="https://www.zigly.com/blog/post/multivitamins-for-pets-essential-supplements.html" target="_blank"><img src="https://www.zigly.com/media/mageplaza/blog/post/t/o/top_5_supplements_for_a_healthy_and_active_pet_-_01.png" width="95%" class="d1"/></a></li>
-                <li><p style="color: blue;">Multivitamins for Pets: Why They’re Important for Your Dog</p></li>
+            <ul type="none">
+                <li><a href="https://www.zigly.com/blog/post/understanding-castration-in-pets.html" target="_blank"><img
+                            src="https://www.zigly.com/media/mageplaza/blog/post/c/a/castration-bannert.jpg" width="95%"
+                            class="d1" /></a></li>
+                <li>
+                    <p style="color: blue;">Understanding Castration in Pets: A Complete Guide</p>
+                </li>
             </ul>
             <ul type="none">
-                <li><a href="https://www.zigly.com/blog/post/dog-bandanas-style-comfort.html" target="_blank"><img src="https://www.zigly.com/media/mageplaza/blog/post/p/e/pet-bandanas-main.jpg" width="95%" class="d1"/></a></li>
+                <li><a href="https://www.zigly.com/blog/post/multivitamins-for-pets-essential-supplements.html"
+                        target="_blank"><img
+                            src="https://www.zigly.com/media/mageplaza/blog/post/t/o/top_5_supplements_for_a_healthy_and_active_pet_-_01.png"
+                            width="95%" class="d1" /></a></li>
+                <li>
+                    <p style="color: blue;">Multivitamins for Pets: Why They’re Important for Your Dog</p>
+                </li>
+            </ul>
+            <ul type="none">
+                <li><a href="https://www.zigly.com/blog/post/dog-bandanas-style-comfort.html" target="_blank"><img
+                            src="https://www.zigly.com/media/mageplaza/blog/post/p/e/pet-bandanas-main.jpg" width="95%"
+                            class="d1" /></a></li>
                 <p style="color: blue;">Dog Bandanas - Stylish Dog Bandanas for All Occasions | Zigly</p>
             </ul>
 
         </div>
     </section>
 
-    <center><button style="background-color: #052a50; color: white;" class="more"><b>View More   <i class="fa-duotone fa-solid fa-arrow-right"></i></b></button></center><hr/>
+    <center><button style="background-color: #052a50; color: white;" class="more"><b>View More <i
+                    class="fa-duotone fa-solid fa-arrow-right"></i></b></button></center>
+    <hr />
     <section class="footer">
-        <img src="https://www.zigly.com/media/wysiwyg/Desktop-bottom-banner_2.png" width="100%"/>
+        <img src="https://www.zigly.com/media/wysiwyg/Desktop-bottom-banner_2.png" width="100%" />
         <div class="li1">
             <ul type="none">
                 <li style="color: red;"><b>Quick Links</b></li>
@@ -85,7 +507,8 @@
             </ul>
             <ul type="none">
                 <li style="color: red;"><b>Get In Touch For Offers</b></li>
-                <li><input type="email" placeholder="Enter the Email"/><button style="background-color: red; color: white;">SUBMIT</button></li>
+                <li><input type="email" placeholder="Enter the Email" /><button
+                        style="background-color: red; color: white;">SUBMIT</button></li>
                 <li>Vet Consultation</li>
                 <li>Experience Center</li>
                 <li>E-Pharmacy</li>
@@ -94,18 +517,31 @@
         </div>
         <div class="li2">
             <ul type="none">
-            <p style="color: red;">Connect with Us.</p>
-            <div class="img"><img src="https://www.zigly.com/media/wysiwyg/facebook_icon.png" width="10%"/><img src="https://www.zigly.com/media/wysiwyg/Insta_icon.png" width="10%"/><img src="https://www.zigly.com/media/wysiwyg/Whatsapp_icon.png" width="10%"/><img src="https://www.zigly.com/media/wysiwyg/twetter_icon.png" width="10%"/><img src="https://www.zigly.com/media/wysiwyg/youtube_icon1.png" width="10%"/><img src="https://www.zigly.com/media/wysiwyg/LinkedIn_icon.png" width="10%"/></div>
-        <pre style="color: white;">© 2025 Cosmo First Limited( Formerly Cosmo Films Limited ).
-    All rights reserved.</pre></ul>
-            <ul type="none" class="im"><div>
-                <p style="color: red;">Download the App Now</p>
-                <div class="img"><img src="https://www.zigly.com/media/wysiwyg/Web_footer_placement.png" width="25%"/><img src="https://www.zigly.com/media/wysiwyg/appstore.png" width="25%"/>    <img src="https://moein.video/wp-content/uploads/2021/12/Whatsapp-Logo-GIF-WhatsApp-Icon-GIF-Royalty-Free-Animated-Icon-GIF-350px-after-effects-project.gif" width="10%"/>
-            </div></ul>
+                <p style="color: red;">Connect with Us.</p>
+                <div class="img"><img src="https://www.zigly.com/media/wysiwyg/facebook_icon.png" width="10%" /><img
+                        src="https://www.zigly.com/media/wysiwyg/Insta_icon.png" width="10%" /><img
+                        src="https://www.zigly.com/media/wysiwyg/Whatsapp_icon.png" width="10%" /><img
+                        src="https://www.zigly.com/media/wysiwyg/twetter_icon.png" width="10%" /><img
+                        src="https://www.zigly.com/media/wysiwyg/youtube_icon1.png" width="10%" /><img
+                        src="https://www.zigly.com/media/wysiwyg/LinkedIn_icon.png" width="10%" /></div>
+                <pre style="color: white;">© 2025 Cosmo First Limited( Formerly Cosmo Films Limited ).
+    All rights reserved.</pre>
+            </ul>
+            <ul type="none" class="im">
+                <div>
+                    <p style="color: red;">Download the App Now</p>
+                    <div class="img"><img src="https://www.zigly.com/media/wysiwyg/Web_footer_placement.png"
+                            width="25%" /><img src="https://www.zigly.com/media/wysiwyg/appstore.png" width="25%" />
+                        <img src="https://moein.video/wp-content/uploads/2021/12/Whatsapp-Logo-GIF-WhatsApp-Icon-GIF-Royalty-Free-Animated-Icon-GIF-350px-after-effects-project.gif"
+                            width="10%" />
+                    </div>
+            </ul>
 
         </div>
     </section>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
